@@ -1,20 +1,19 @@
 # Akıllı Atık Rehberi
 
-Tek sayfalık (SPA) bir web uygulaması. Kullanıcı, elindeki ambalajı/metni yazar ve yapay zekâdan renk kodlu geri dönüşüm talimatı alır.
+## Problem
+Günlük hayatta atıklarımızı nasıl ayrıştıracağımızı tam olarak bilemiyoruz ve bu bilgi eksikliği geri dönüşüm süreçlerini verimsiz hale getirerek çevre kirliliğine yol açıyor.
 
-## Kurulum
+## Çözüm
+Kullanıcıların ellerindeki atığın türünü (örneğin: avokado çekirdeği veya plastik şişe) yazarak saniyeler içinde hangi geri dönüşüm kutusuna atılması gerektiğini öğrendiği yapay zeka destekli bir web uygulaması.
 
-```bash
-cd akilli-atik-rehberi
-```
+## Canlı Demo
+Yayın Linki: https://akilli-atik-rehberi.vercel.app/
+Demo Video: [https://www.loom.com/share/4b388477435e49f181c7a3d8ffdafbfa]
 
-`.env` dosyasına Anthropic API anahtarınızı ekleyin:
+## Kullanılan Teknolojiler
+- HTML, CSS, Vanilla JavaScript
+- Gemini API (Google AI Studio)
+- Vercel (Yayınlama için)
 
-```env
-ANTHROPIC_API_KEY=your_api_key_here
-```
-
-Geliştirme sırasında basitçe bir statik sunucu veya canlı sunucu eklentisi (VS Code Live Server vb.) ile `public/index.html` dosyasını açabilirsiniz.
-
-Backend endpoint’i (`/api/analyze`) Vercel gibi bir ortama deploy edildiğinde çalışacak şekilde tasarlanacaktır.
-
+## Nasıl Çalıştırılır?
+Proje herhangi bir kuruluma ihtiyaç duymadan doğrudan Canlı Demo linki üzerinden çalıştırılabilir.
